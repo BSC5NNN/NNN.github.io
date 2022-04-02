@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #010101;
+	background-image: url("image/background.jpg");
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", 
+		"Arial Black", "sans-serif";margin:0;
+	padding-left: 20px;
+	position: fixed;
+	font-size: 40px;
+	top: 0;}
+	li {float: left;
+	}
+	li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 40%;
+	text-decoration: none;}
+	.word{
+    font-size: 60px;
+    letter-spacing: 15px;
+    position: fixed;
+    top: 80px;
+    color: lightsteelblue;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", 
+		"DejaVu Sans", Verdana, "sans-serif";
+    text-shadow: 5px 5px 5px #0E61EC;
+    right: 90px;
+}
+    .sentence{
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", 
+		"DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 20px;
+    float: right;
+    color: white;
+    clear: right;
+    position: fixed;
+    bottom: 10px;
+    right: 80px;
+    width: 700px;
+;         text-shadow: 3px 2px #77758D;
+}
+	.img{
+    width: 100%;
+    max-width: 100%;
+   
+}
+.image{left:0px;right:0px;
+    top: 90px;
+    clear: left;
+    float: left;
+}
+.WebContainer{width: 100%; height:100%;}
+.articles{width:90%;/*Takes 90% width from WebContainer*/
+	height:auto;margin:auto}
